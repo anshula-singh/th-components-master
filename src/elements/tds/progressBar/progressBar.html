@@ -1,0 +1,14 @@
+<template>
+  <div
+    class="progress-bar"
+    aria-valuemin="0"
+    aria-valuemax="100"
+    aria-valuenow={progress}
+    role="progressbar"
+    style="min-width: 6rem;"
+  >
+    <div class="progress-bar__value" style={valueStyle}>
+      <span class="assistive-text">Progress: {progress}%</span>
+    </div>
+  </div>
+</template>

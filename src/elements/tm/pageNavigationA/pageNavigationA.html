@@ -1,0 +1,9 @@
+<template>
+  <nav>
+    <template for:each={items} for:item="item">
+      <a aria-current={item.ariaCurrent} href={item.href} key={item.title}
+        >{item.title}</a
+      >
+    </template>
+  </nav>
+</template>

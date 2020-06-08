@@ -1,0 +1,11 @@
+:host {
+  display: block;
+}
+
+.tile {
+  background-color: var(--tds-color-white);
+  box-shadow: var(--tds-shadow-md);
+  border-radius: var(--tds-radius-lg);
+  border-top: var(--tds-spacing-2) solid var(--tds-color-white);
+  padding: var(--tds-spacing-6);
+}

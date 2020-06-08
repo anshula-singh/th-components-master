@@ -1,0 +1,70 @@
+@import "tds/reset";
+@import "tm/cardBase";
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-gap: var(--tds-spacing-6);
+  justify-content: center;
+  margin: 0;
+  max-width: 1280px;
+  padding: 0;
+}
+
+.card {
+  overflow: hidden;
+}
+
+.image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 0;
+  padding-top: 60%;
+}
+
+.content {
+  padding: var(--tds-spacing-6);
+}
+
+.name {
+  color: var(--tds-color-black);
+  font-size: var(--tds-font-size-xl);
+  font-weight: bold;
+}
+.role {
+  color: var(--tds-color-black);
+  font-size: var(--tds-font-size-lg);
+  margin-top: var(--tds-spacing-1);
+  padding-bottom: var(--tds-spacing-2);
+}
+.item {
+  color: var(--tds-color-meteorite);
+  display: flex;
+  font-size: var(--tds-font-size-smd);
+  margin: var(--tds-spacing-2) 0;
+}
+
+.item span,
+.item a {
+  margin-left: var(--tds-spacing-2);
+}
+
+.link {
+  color: var(--tds-color-meteorite);
+}
+.cta {
+  margin-top: var(--tds-spacing-4);
+}
+
+@media screen and (max-width: 800px) {
+  ul {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+
+@media screen and (max-width: 400px) {
+  ul {
+    grid-template-columns: 1fr;
+  }
+}

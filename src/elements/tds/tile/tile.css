@@ -1,0 +1,23 @@
+:host {
+  display: block;
+}
+
+.tile {
+  --radius: var(--tds-radius-lg);
+  border-radius: var(--radius);
+  box-shadow: var(--tds-shadow-sm);
+  padding: var(--tds-spacing-4);
+  padding-top: calc(var(--tds-spacing-4) + var(--border-width));
+  position: relative;
+}
+
+.tile::before {
+  background-color: var(--border-color);
+  border-radius: var(--radius) var(--radius) 0 0;
+  content: "";
+  height: var(--border-width);
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

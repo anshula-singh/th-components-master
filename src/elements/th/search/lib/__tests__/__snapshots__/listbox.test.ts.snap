@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Listbox blur 1`] = `
+"
+  <div data-listbox=\\"root\\" aria-expanded=\\"false\\" aria-haspopup=\\"listbox\\" role=\\"combobox\\">
+    <div>
+      <input data-listbox=\\"input\\" aria-activedescendant=\\"\\" aria-autocomplete=\\"list\\" aria-controls=\\"\\" autocomplete=\\"off\\">
+    </div>
+    <div data-listbox=\\"options\\" role=\\"listbox\\" aria-hidden=\\"true\\">
+      <ul>
+        
+          <li role=\\"presentation\\">
+            <div data-listbox=\\"option\\" id=\\"a\\" aria-selected=\\"false\\" role=\\"option\\">
+              A
+            </div>
+          </li>
+        ,
+          <li role=\\"presentation\\">
+            <div data-listbox=\\"option\\" id=\\"b\\" aria-selected=\\"false\\" role=\\"option\\">
+              B
+            </div>
+          </li>
+        ,
+          <li role=\\"presentation\\">
+            <div data-listbox=\\"option\\" id=\\"c\\" aria-selected=\\"false\\" role=\\"option\\">
+              C
+            </div>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+"
+`;
+
+exports[`Listbox default 1`] = `
+"
+  <div data-listbox=\\"root\\" aria-expanded=\\"false\\" aria-haspopup=\\"listbox\\" role=\\"combobox\\">
+    <div>
+      <input data-listbox=\\"input\\" aria-activedescendant=\\"\\" aria-autocomplete=\\"list\\" aria-controls=\\"\\" autocomplete=\\"off\\">
+    </div>
+    <div data-listbox=\\"options\\" role=\\"listbox\\" aria-hidden=\\"true\\">
+      <ul>
+        
+          <li role=\\"presentation\\">
+            <div data-listbox=\\"option\\" id=\\"a\\" aria-selected=\\"false\\" role=\\"option\\">
+              A
+            </div>
+          </li>
+        ,
+          <li role=\\"presentation\\">
+            <div data-listbox=\\"option\\" id=\\"b\\" aria-selected=\\"false\\" role=\\"option\\">
+              B
+            </div>
+          </li>
+        ,
+          <li role=\\"presentation\\">
+            <div data-listbox=\\"option\\" id=\\"c\\" aria-selected=\\"false\\" role=\\"option\\">
+              C
+            </div>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+"
+`;
+
+exports[`Listbox focus 1`] = `
+"
+  <div data-listbox=\\"root\\" aria-expanded=\\"true\\" aria-haspopup=\\"listbox\\" role=\\"combobox\\">
+    <div>
+      <input data-listbox=\\"input\\" aria-activedescendant=\\"\\" aria-autocomplete=\\"list\\" aria-controls=\\"\\" autocomplete=\\"off\\">
+    </div>
+    <div data-listbox=\\"options\\" role=\\"listbox\\" aria-hidden=\\"false\\">
+      <ul>
+        
+          <li role=\\"presentation\\">
+            <div data-listbox=\\"option\\" id=\\"a\\" aria-selected=\\"false\\" role=\\"option\\">
+              A
+            </div>
+          </li>
+        ,
+          <li role=\\"presentation\\">
+            <div data-listbox=\\"option\\" id=\\"b\\" aria-selected=\\"false\\" role=\\"option\\">
+              B
+            </div>
+          </li>
+        ,
+          <li role=\\"presentation\\">
+            <div data-listbox=\\"option\\" id=\\"c\\" aria-selected=\\"false\\" role=\\"option\\">
+              C
+            </div>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+"
+`;

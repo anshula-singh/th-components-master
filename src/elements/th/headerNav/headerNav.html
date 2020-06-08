@@ -1,0 +1,43 @@
+<template>
+  <nav role="navigation">
+    <ul class="nav-list" onfocusout={onFocusOut} onmouseleave={onMouseLeave}>
+      <template for:each={navItemsWithState} for:item="item">
+        <li class={item.className} key={item.label}>
+          <a
+            class="nav-list-item__link"
+            href={item.link.href}
+            if:true={item.link}
+            onfocus={onItemFocus}
+            onmouseenter={onItemMouseEnter}
+            >{item.label}</a
+          >
+
+          <button
+            aria-expanded={item.isExpanded}
+            aria-haspopup="true"
+            class="nav-list-item__button"
+            if:true={item.sections}
+            onclick={onItemClick}
+            onfocus={onItemFocus}
+            onmouseenter={onItemMouseEnter}
+            onkeydown={onItemKeyDown}
+          >
+            {item.label}
+            <tds-icon
+              class="nav-list-item__arrow"
+              size="override"
+              symbol="chevrondown"
+            ></tds-icon>
+          </button>
+
+          <th-header-nav-item
+            key={item.label}
+            item={item}
+            if:true={item.isExpanded}
+            onrequestclose={onItemRequestClose}
+          ></th-header-nav-item>
+        </li>
+      </template>
+    </ul>
+  </nav>
+</template>

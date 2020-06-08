@@ -1,0 +1,6 @@
+@import "tds/reset";
+
+.item {
+  background-color: var(--tds-color-white);
+  padding: var(--tds-spacing-6);
+}

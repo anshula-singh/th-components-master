@@ -1,0 +1,65 @@
+@import "tds/reset";
+
+* {
+  font-size: var(--tds-font-size-md);
+}
+
+header {
+  background-color: var(--tds-color-white);
+  border-bottom: 3px solid var(--tds-color-ocean); /* TODO: theme color */
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.section-1 {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  padding: var(--tds-spacing-4);
+}
+
+.section-2 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  padding-left: var(--tds-spacing-4);
+}
+
+.search-actions-profile {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  padding: var(--tds-spacing-1) var(--tds-spacing-4) var(--tds-spacing-1) 0;
+}
+
+.search {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  /* flex-grow: inherit; */
+  /* padding-top: var(--tds-spacing-4); */
+}
+
+.nav {
+  align-items: flex-end;
+  display: flex;
+  flex: 1;
+  flex-grow: unset;
+}
+
+.actions {
+  align-self: center;
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: var(--tds-spacing-2);
+  margin-left: var(--tds-spacing-4);
+}
+
+.profile {
+  margin-left: var(--tds-spacing-4);
+}

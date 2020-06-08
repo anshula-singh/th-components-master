@@ -1,0 +1,20 @@
+<template>
+  <ul>
+    <template for:each={items} for:item="item">
+      <li key={item.title}>
+        <tm-card
+          cta-href={item.ctaHref}
+          cta-target={item.ctaTarget}
+          cta-title={item.ctaTitle}
+          img-src={item.imgSrc}
+          img-variant="right--cover"
+          description={item.description}
+          pretitle={item.pretitle}
+          pretitle-href={item.pretitleHref}
+          pretitle-href-text={item.pretitleHrefText}
+          title={item.title}
+        ></tm-card>
+      </li>
+    </template>
+  </ul>
+</template>

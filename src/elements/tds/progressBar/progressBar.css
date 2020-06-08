@@ -1,0 +1,26 @@
+@import "tds/reset";
+
+.progress-bar {
+  background-color: var(--tds-color-fog);
+  border-radius: var(--tds-radius-xl);
+  height: var(--tds-spacing-4);
+}
+
+.progress-bar__value {
+  background-color: var(--progress-color, var(--tds-color-ocean));
+  border-radius: var(--tds-radius-xl);
+  height: 100%;
+}
+
+.assistive-text {
+  position: absolute !important;
+  margin: -1px !important;
+  border: 0 !important;
+  padding: 0 !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  text-transform: none !important;
+  white-space: nowrap !important;
+}

@@ -1,0 +1,63 @@
+<template>
+  <ui-focus-visible>
+    <div class="menu" data-index={activeIndex} role="menu">
+      <div onkeydown={onKeyDown} class="menu__list">
+        <template for:each={columns} for:item="column">
+          <div class="menu__column" key={column.key}>
+            <template for:each={column.sections} for:item="section">
+              <div
+                key={section.label}
+                role="presentation"
+                class="menu__section"
+              >
+                <div class="menu__heading">
+                  {section.label}
+                </div>
+                <template for:each={section.items} for:item="item">
+                  <div class="menu-item" key={item.label}>
+                    <div style="display: flex;">
+                      <a
+                        class="menu-item__link"
+                        href={item.link.href}
+                        role="menuitem"
+                        tabindex="-1"
+                      >
+                        <div class="menu-item__image-container">
+                          <img
+                            class="menu-item__image"
+                            src={item.iconUrl}
+                            alt=""
+                          />
+                        </div>
+                        <div class="menu-item__details">
+                          <div class="menu-item__label">{item.label}</div>
+                          <div class="menu-item__description">
+                            {item.description}
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <ul class="submenu" if:true={item.items}>
+                      <template for:each={item.items} for:item="itemsubitem">
+                        <li class="submenu-item" key={itemsubitem.label}>
+                          <a
+                            href={itemsubitem.link.href}
+                            role="menuitem"
+                            tabindex="-1"
+                            class="submenu-item__link"
+                          >
+                            {itemsubitem.label}
+                          </a>
+                        </li>
+                      </template>
+                    </ul>
+                  </div>
+                </template>
+              </div>
+            </template>
+          </div>
+        </template>
+      </div>
+    </div>
+  </ui-focus-visible>
+</template>

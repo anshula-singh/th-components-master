@@ -1,0 +1,54 @@
+@import "tds/reset";
+
+.section {
+  padding: var(--tds-spacing-20) var(--tds-spacing-6);
+}
+
+.section--white {
+  background-color: var(--tds-color-white);
+  color: var(--tds-color-black);
+}
+
+.section--dark {
+  background-color: var(--tds-color-theme-dark);
+  color: var(--tds-color-white);
+}
+
+.section--light {
+  background-color: var(--tds-color-theme-light);
+  color: var(--tds-color-black);
+}
+
+.content-container {
+  margin: auto;
+  max-width: 600px;
+  text-align: center;
+  padding-bottom: var(--tds-spacing-4);
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 1280px;
+}
+
+.title {
+  font-size: var(--tds-font-size-2xl);
+  margin-bottom: var(--tds-spacing-2);
+}
+
+.description {
+  font-size: var(--tds-font-size-lg);
+  line-height: 1.5;
+  margin-bottom: var(--tds-spacing-6);
+}
+
+.slot {
+  align-self: stretch;
+}
+
+.cta {
+  margin-top: var(--tds-spacing-6);
+}

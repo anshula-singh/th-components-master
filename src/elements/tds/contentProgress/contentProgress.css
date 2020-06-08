@@ -1,0 +1,17 @@
+@import "tds/reset";
+
+.text {
+  color: var(--tds-color-meteorite);
+  font-size: var(--tds-font-size-xs); /* TODO: sm? */
+}
+
+.completion {
+  display: flex;
+  padding: var(--tds-spacing-1) 0 var(--tds-spacing-1) var(--tds-spacing-2);
+}
+
+.completion__text {
+  color: var(--tds-color-meteorite);
+  font-size: var(--tds-font-size-xs); /* TODO: sm? */
+  margin-right: var(--tds-spacing-1);
+}

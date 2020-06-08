@@ -1,0 +1,45 @@
+@import "tds/reset";
+
+.image-container {
+  border-radius: var(--tds-radius-lg);
+  position: relative;
+}
+
+.image {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.icon {
+  align-self: center;
+  color: var(--tds-color-white);
+  display: flex;
+  background-color: var(--tds-color-evergreen);
+  border-radius: var(--tds-radius-full);
+  border: 3px solid var(--tds-color-white);
+  box-sizing: border-box;
+  justify-content: center;
+  height: var(--size);
+  position: absolute;
+  right: -10px;
+  top: -4px;
+  width: var(--size);
+}
+
+.icon--small,
+.icon--medium {
+  --size: 30px;
+}
+
+.icon--large,
+.icon--xlarge {
+  --size: 38px;
+}
+
+.icon-svg {
+  --icon-size: 100%;
+  height: 60%;
+  margin: auto;
+  width: 60%;
+}

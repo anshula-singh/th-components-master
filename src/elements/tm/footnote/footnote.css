@@ -1,0 +1,28 @@
+:host {
+  display: block;
+}
+
+section {
+  color: var(--tds-color-meteorite);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: var(--tds-spacing-20) var(--tds-spacing-6);
+  text-align: center;
+  margin: auto;
+  max-width: 640px;
+  line-height: var(--tds-line-height-normal);
+}
+
+section h3 {
+  font-size: var(--tds-font-size-md);
+  font-weight: bold;
+}
+
+section p {
+  font-size: var(--tds-font-size-sm);
+}
+
+section a {
+  color: var(--tds-color-meteorite);
+}

@@ -1,0 +1,41 @@
+@import "tds/reset";
+
+nav {
+  align-items: center;
+  background-color: var(--tds-color-white);
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: var(--tds-spacing-1);
+  justify-content: center;
+  padding: var(--tds-spacing-2);
+  border-bottom: 1px solid #00000010; /* fix token */
+}
+
+nav a {
+  border-radius: var(--tds-radius-lg);
+  padding: var(--tds-spacing-2) var(--tds-spacing-5);
+  color: var(--tds-color-black);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  border-radius: var(--tds-radius-lg);
+  padding: var(--tds-spacing-2) var(--tds-spacing-5);
+  background-color: hsl(
+    var(--tds-color-brand-h),
+    var(--tds-color-brand-s),
+    calc(var(--tds-color-brand-l) + 55%)
+  );
+}
+
+nav a[aria-current="page"] {
+  color: var(--tds-color-brand);
+  border-radius: var(--tds-radius-lg);
+  padding: var(--tds-spacing-2) var(--tds-spacing-5);
+  background-color: hsl(
+    var(--tds-color-brand-h),
+    var(--tds-color-brand-s),
+    calc(var(--tds-color-brand-l) + 50%)
+  );
+}

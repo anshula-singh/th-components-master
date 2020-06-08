@@ -1,0 +1,20 @@
+@import "tds/reset";
+
+svg {
+  display: block;
+  fill: currentColor;
+  height: var(--icon-size);
+  width: var(--icon-size);
+}
+
+.size--small {
+  --icon-size: var(--tds-spacing-4);
+}
+
+.size--medium {
+  --icon-size: var(--tds-spacing-5);
+}
+
+.size--large {
+  --icon-size: var(--tds-spacing-6);
+}

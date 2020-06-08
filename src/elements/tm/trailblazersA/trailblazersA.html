@@ -1,0 +1,36 @@
+<template>
+  <ul>
+    <template for:each={trailblazers} for:item="item">
+      <li class="card card-base" key={item.name}>
+        <div class="image" style={item.style}></div>
+        <div class="content">
+          <div class="name">{item.name}</div>
+          <div class="role">{item.role}</div>
+          <div class="item">
+            <tds-icon symbol="favorite"></tds-icon>
+            <span>{item.rank}</span>
+          </div>
+          <div class="item">
+            <tds-icon symbol="checkin"></tds-icon>
+            <span>{item.location}</span>
+          </div>
+          <div class="item">
+            <tds-icon symbol="clock"></tds-icon>
+            <span>{item.since}</span>
+          </div>
+          <div class="item">
+            <tds-icon symbol="user"></tds-icon>
+            <a class="link" href={item.profileHref}>{item.profileTitle}</a>
+          </div>
+          <tds-button-link
+            href={item.ctaHref}
+            if:true={item.ctaHref}
+            class="cta"
+          >
+            {item.ctaTitle}
+          </tds-button-link>
+        </div>
+      </li>
+    </template>
+  </ul>
+</template>

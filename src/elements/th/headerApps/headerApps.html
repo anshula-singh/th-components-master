@@ -1,0 +1,29 @@
+<template>
+  <ui-focus-visible>
+    <div class="root">
+      <tds-button-icon
+        aria-label="App Launcher"
+        data-menu="trigger"
+        variant="bare"
+      >
+        <tds-icon size="large" symbol="apps"></tds-icon>
+      </tds-button-icon>
+      <div class="menu" data-menu="menu" id="menu">
+        <div class="menu__items">
+          <template for:each={menuOptions} for:item="option">
+            <a
+              class="menu__item"
+              key={option.key}
+              data-menu="item"
+              href={option.href}
+              id={option.key}
+            >
+              <img alt="" src={option.imageUrl} />
+              <span>{option.label}</span>
+            </a>
+          </template>
+        </div>
+      </div>
+    </div>
+  </ui-focus-visible>
+</template>

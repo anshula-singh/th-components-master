@@ -1,0 +1,49 @@
+@import "tds/reset";
+
+.item {
+  align-items: center;
+  background-color: var(--tds-color-white);
+  display: flex;
+  padding: var(--tds-spacing-6);
+}
+
+.body {
+  flex: 1;
+}
+
+.title {
+  color: var(--tds-color-brand);
+  font-size: var(--tds-font-size-md);
+}
+
+.subtitle {
+  color: var(--tds-color-meteorite);
+  font-size: var(--tds-font-size-xs);
+  margin-top: var(--tds-spacing-1);
+}
+
+.icon {
+  background-color: var(--tds-color-fog);
+  border-radius: var(--tds-radius-full);
+  color: var(--tds-color-meteorite);
+  transition: margin-right 0.15s ease-in-out;
+  padding: var(--tds-spacing-2);
+}
+
+.icon--complete {
+  background-color: var(--tds-color-evergreen);
+  color: var(--tds-color-white);
+}
+
+.item:hover {
+  cursor: pointer;
+}
+
+.item:hover .title {
+  text-decoration: underline;
+}
+
+.item:hover .icon,
+.item:focus .icon {
+  margin-right: -10px;
+}

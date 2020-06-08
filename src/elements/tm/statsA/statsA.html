@@ -1,0 +1,10 @@
+<template>
+  <ul>
+    <template for:each={items} for:item="item">
+      <li key={item.title}>
+        <h3>{item.title}</h3>
+        <p>{item.description}</p>
+      </li>
+    </template>
+  </ul>
+</template>

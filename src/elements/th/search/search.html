@@ -1,0 +1,80 @@
+<template>
+  <div class="search" data-listbox="root">
+    <div class="search-input__wrapper">
+      <label class="search-input__label" for="search"
+        >{configLabels.placeholder}</label
+      >
+      <tds-icon
+        class="search-input__icon"
+        size="small"
+        symbol="search"
+      ></tds-icon>
+      <input
+        data-listbox="input"
+        class="search-input__input"
+        id="search"
+        oninput={onInput}
+        onfocus={onFocus}
+        placeholder={configLabels.placeholder}
+      />
+    </div>
+    <div class="search-results" data-listbox="options">
+      <!-- Completions-->
+      <template if:true={showCompletions}>
+        <div class="search-results__completions" data-testid="completions">
+          <ul>
+            <template for:each={completions} for:item="completion">
+              <li key={completion.expression}>
+                <div
+                  class="search-result"
+                  data-listbox="option"
+                  id={completion.expression}
+                >
+                  <tds-icon
+                    class="search-result__icon"
+                    size="small"
+                    symbol="search"
+                  ></tds-icon>
+                  <div class="search-result__title">
+                    {completion.expression}
+                  </div>
+                </div>
+              </li>
+            </template>
+          </ul>
+        </div>
+      </template>
+      <!-- Recents -->
+      <template if:true={showRecents}>
+        <div class="search-results__recents" data-testid="recents">
+          <template for:each={recents} for:item="section">
+            <div class="search-result__group" key={section.title}>
+              <div class="search-result__heading">{section.title}</div>
+              <ul aria-label={section.title} role="group">
+                <template for:each={section.items} for:item="item">
+                  <li key={item.path}>
+                    <div
+                      class="search-result"
+                      data-listbox="option"
+                      id={item.title}
+                    >
+                      <img class="search-result__image" src={item.icon_url} />
+                      <div>
+                        <div class="search-result__subtitle">
+                          {item.content_type}
+                        </div>
+                        <div class="search-result__title">
+                          {item.title}
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </template>
+              </ul>
+            </div>
+          </template>
+        </div>
+      </template>
+    </div>
+  </div>
+</template>

@@ -1,0 +1,24 @@
+<template>
+  <ul>
+    <template for:each={items} for:item="item">
+      <li key={item.title} class="card card-base">
+        <div>
+          <div class="calendar">
+            <div class="calendar__head">{item.month}</div>
+            <div class="calendar__body">{item.day}</div>
+          </div>
+        </div>
+        <div class="information">
+          <div class="details">
+            <div class="pretitle">{item.pretitle}</div>
+            <div class="title">{item.title}</div>
+            <div class="date">{item.date}</div>
+            <div class="time">{item.time}</div>
+            <div class="location">{item.location}</div>
+          </div>
+          <a class="cta" href={item.ctaHref}>{item.ctaTitle}</a>
+        </div>
+      </li>
+    </template>
+  </ul>
+</template>

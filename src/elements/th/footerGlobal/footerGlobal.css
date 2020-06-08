@@ -1,0 +1,51 @@
+@import "tds/reset";
+
+ul {
+  list-style: none;
+}
+
+a {
+  font-size: var(--tds-font-size-xs);
+  color: var(--tds-color-meteorite);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  color: var(--tds-color-meteorite);
+  display: flex;
+  font-size: var(--tds-font-size-sm);
+  margin: 0 auto;
+  max-width: 1400px;
+  align-items: center;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.cloud {
+  color: rgb(0, 161, 224);
+}
+
+.links {
+  display: flex;
+}
+
+.copyright {
+  font-size: var(--tds-font-size-xs);
+}
+
+.copyright,
+.links li {
+  margin-left: var(--tds-spacing-4);
+}
+
+.wrapper {
+  border-top: 1px solid var(--tds-color-fog);
+}
+.link-wrapper {
+  align-items: center;
+  display: flex;
+}

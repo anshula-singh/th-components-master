@@ -1,0 +1,20 @@
+<template>
+  <tds-theme-provider>
+    <th-header-desktop logo={logo}>
+      <th-search slot="search"></th-search>
+      <th-header-nav items={navItems} slot="navigation"></th-header-nav>
+      <div slot="actions">
+        <th-header-apps apps={apps} if:true={user}></th-header-apps>
+        <template if:false={user}>
+          <tds-button-link variant="brand">Sign Up</tds-button-link>
+          <tds-button-link>Log In</tds-button-link>
+        </template>
+      </div>
+      <th-header-profile
+        if:true={user}
+        slot="profile"
+        user={user}
+      ></th-header-profile>
+    </th-header-desktop>
+  </tds-theme-provider>
+</template>

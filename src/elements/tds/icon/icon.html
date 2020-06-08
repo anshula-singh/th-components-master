@@ -1,0 +1,17 @@
+<template>
+  <svg
+    aria-hidden="true"
+    class={className}
+    if:false={crossOrigin}
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <use xlink:href={href}></use>
+  </svg>
+  <svg
+    aria-hidden="true"
+    class={className}
+    if:true={crossOrigin}
+    lwc:dom="manual"
+    xmlns="http://www.w3.org/2000/svg"
+  ></svg>
+</template>

@@ -1,0 +1,37 @@
+@import "tds/reset";
+
+.brick {
+  align-items: center;
+  background: var(--tds-color-white);
+  border-radius: var(--tds-radius-lg);
+  box-shadow: var(--tds-shadow-xs);
+  display: flex;
+  padding: var(--tds-spacing-3);
+}
+
+.content {
+  flex: 1;
+}
+
+.content + * {
+  margin-left: var(--tds-spacing-3);
+}
+
+.image {
+  flex-shrink: 0;
+  margin-right: var(--tds-spacing-3);
+  width: 50px;
+}
+
+.pretitle {
+  font-size: var(--tds-font-size-sm);
+  color: var(--tds-color-meteorite);
+  text-transform: capitalize;
+}
+
+.title {
+  text-decoration: none;
+  font-size: var(--tds-font-size-md);
+  font-weight: bold;
+  color: var(--tds-color-ocean);
+}

@@ -1,0 +1,99 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./src",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "lib": ["esnext", "dom"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "paths": {
+      "tds/badge": ["./elements/tds/badge/badge.ts"],
+      "tds/button": ["./elements/tds/button/button.ts"],
+      "tds/buttonIcon": ["./elements/tds/buttonIcon/buttonIcon.ts"],
+      "tds/buttonLink": ["./elements/tds/buttonLink/buttonLink.ts"],
+      "tds/childSummary": ["./elements/tds/childSummary/childSummary.ts"],
+      "tds/contentBrick": ["./elements/tds/contentBrick/contentBrick.ts"],
+      "tds/contentBrickCompact": [
+        "./elements/tds/contentBrickCompact/contentBrickCompact.ts"
+      ],
+      "tds/contentChildListItem": [
+        "./elements/tds/contentChildListItem/contentChildListItem.ts"
+      ],
+      "tds/contentHeader": ["./elements/tds/contentHeader/contentHeader.ts"],
+      "tds/contentIcon": ["./elements/tds/contentIcon/contentIcon.ts"],
+      "tds/contentItemLink": [
+        "./elements/tds/contentItemLink/contentItemLink.ts"
+      ],
+      "tds/contentListItem": [
+        "./elements/tds/contentListItem/contentListItem.ts"
+      ],
+      "tds/contentProgress": [
+        "./elements/tds/contentProgress/contentProgress.ts"
+      ],
+      "tds/contentSummary": ["./elements/tds/contentSummary/contentSummary.ts"],
+      "tds/contentSummaryBase": [
+        "./elements/tds/contentSummaryBase/contentSummaryBase.ts"
+      ],
+      "tds/contentTile": ["./elements/tds/contentTile/contentTile.ts"],
+      "tds/icon": ["./elements/tds/icon/icon.ts"],
+      "tds/progressBar": ["./elements/tds/progressBar/progressBar.ts"],
+      "tds/reset": ["./elements/tds/reset/reset.ts"],
+      "tds/summary": ["./elements/tds/summary/summary.ts"],
+      "tds/themeProvider": ["./elements/tds/themeProvider/themeProvider.ts"],
+      "tds/tile": ["./elements/tds/tile/tile.ts"],
+      "th/favoriteButton": ["./elements/th/favoriteButton/favoriteButton.ts"],
+      "th/footerGlobal": ["./elements/th/footerGlobal/footerGlobal.ts"],
+      "th/footerLinks": ["./elements/th/footerLinks/footerLinks.ts"],
+      "th/header": ["./elements/th/header/header.ts"],
+      "th/headerApps": ["./elements/th/headerApps/headerApps.ts"],
+      "th/headerDesktop": ["./elements/th/headerDesktop/headerDesktop.ts"],
+      "th/headerNav": ["./elements/th/headerNav/headerNav.ts"],
+      "th/headerNavItem": ["./elements/th/headerNavItem/headerNavItem.ts"],
+      "th/headerProfile": ["./elements/th/headerProfile/headerProfile.ts"],
+      "th/recommendations": [
+        "./elements/th/recommendations/recommendations.ts"
+      ],
+      "th/search": ["./elements/th/search/search.ts"],
+      "tm/card": ["./elements/tm/card/card.ts"],
+      "tm/cardBase": ["./elements/tm/cardBase/cardBase.ts"],
+      "tm/cardGridA": ["./elements/tm/cardGridA/cardGridA.ts"],
+      "tm/cardGridB": ["./elements/tm/cardGridB/cardGridB.ts"],
+      "tm/cardGridC": ["./elements/tm/cardGridC/cardGridC.ts"],
+      "tm/cardGridD": ["./elements/tm/cardGridD/cardGridD.ts"],
+      "tm/content": ["./elements/tm/content/content.ts"],
+      "tm/endCapA": ["./elements/tm/endCapA/endCapA.ts"],
+      "tm/eventsA": ["./elements/tm/eventsA/eventsA.ts"],
+      "tm/faqA": ["./elements/tm/faqA/faqA.ts"],
+      "tm/featureGridA": ["./elements/tm/featureGridA/featureGridA.ts"],
+      "tm/footnote": ["./elements/tm/footnote/footnote.ts"],
+      "tm/heroA": ["./elements/tm/heroA/heroA.ts"],
+      "tm/heroB": ["./elements/tm/heroB/heroB.ts"],
+      "tm/jobsA": ["./elements/tm/jobsA/jobsA.ts"],
+      "tm/page": ["./elements/tm/page/page.ts"],
+      "tm/pageHeaderA": ["./elements/tm/pageHeaderA/pageHeaderA.ts"],
+      "tm/pageNavigationA": [
+        "./elements/tm/pageNavigationA/pageNavigationA.ts"
+      ],
+      "tm/promoA": ["./elements/tm/promoA/promoA.ts"],
+      "tm/sectionA": ["./elements/tm/sectionA/sectionA.ts"],
+      "tm/sectionSpacer": ["./elements/tm/sectionSpacer/sectionSpacer.ts"],
+      "tm/skillsCardA": ["./elements/tm/skillsCardA/skillsCardA.ts"],
+      "tm/skillsGridA": ["./elements/tm/skillsGridA/skillsGridA.ts"],
+      "tm/statsA": ["./elements/tm/statsA/statsA.ts"],
+      "tm/textItem": ["./elements/tm/textItem/textItem.ts"],
+      "tm/textItemGridA": ["./elements/tm/textItemGridA/textItemGridA.ts"],
+      "tm/trailblazersA": ["./elements/tm/trailblazersA/trailblazersA.ts"],
+      "tm/utils": ["./elements/tm/utils/utils.ts"],
+      "tm/youtube": ["./elements/tm/youtube/youtube.ts"],
+      "ui/focusTrap": ["./elements/ui/focusTrap/focusTrap.ts"],
+      "ui/focusVisible": ["./elements/ui/focusVisible/focusVisible.ts"]
+    },
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es2017"
+  },
+  "exclude": ["node_modules", ".dist"]
+}

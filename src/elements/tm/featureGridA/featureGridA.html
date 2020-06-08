@@ -1,0 +1,26 @@
+<template>
+  <template for:each={items} for:item="item">
+    <section key={item.title}>
+      <div class="content">
+        <h3 class="title">{item.title}</h3>
+        <p class="description">{item.description}</p>
+        <div class="ctas">
+          <tds-button-link
+            if:true={item.ctaPrimaryTitle}
+            href={item.ctaPrimaryHref}
+            target={item.ctaPrimaryTarget}
+            >{item.ctaPrimaryTitle}</tds-button-link
+          >
+          <a
+            class="cta--secondary"
+            if:true={item.ctaSecondaryTitle}
+            href={item.ctaSecondaryHref}
+            target={item.ctaSecondaryTarget}
+            >{item.ctaSecondaryTitle}</a
+          >
+        </div>
+      </div>
+      <img class="image" src={item.imgSrc} />
+    </section>
+  </template>
+</template>

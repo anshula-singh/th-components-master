@@ -1,0 +1,21 @@
+<template>
+  <div class={promoClassName} onclick={onClick}>
+    <div class="shadow" if:true={showShadow} style={shadowStyle}></div>
+    <div class="image" style={imageStyle}></div>
+    <div class="content">
+      <h3 class="title">{title}</h3>
+      <p if:true={description} class="description">{description}</p>
+      <tds-button-link
+        class="cta"
+        href={ctaHref}
+        if:true={ctaTitle}
+        onclick={onLinkClick}
+        target={ctaTarget}
+        variant="brand"
+      >
+        {ctaTitle}
+      </tds-button-link>
+    </div>
+    <div class="spacer" style={spacerStyle}></div>
+  </div>
+</template>

@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu default 1`] = `
+"
+  <button data-menu=\\"trigger\\" aria-controls=\\"menu\\" aria-expanded=\\"false\\" aria-haspopup=\\"true\\" role=\\"button\\">
+    Profile
+  </button>
+  <div data-menu=\\"menu\\" id=\\"menu\\" aria-activedescendant=\\"\\" aria-hidden=\\"true\\" style=\\"display: none;\\">
+    <ul>
+      
+        <li role=\\"presentation\\">
+          <a data-menu=\\"item\\" href=\\"/a\\" id=\\"a\\" tabindex=\\"-1\\" data-active=\\"false\\" role=\\"menuitem\\">
+            A
+          </a>
+        </li>
+      ,
+        <li role=\\"presentation\\">
+          <a data-menu=\\"item\\" href=\\"/b\\" id=\\"b\\" tabindex=\\"-1\\" data-active=\\"false\\" role=\\"menuitem\\">
+            B
+          </a>
+        </li>
+      ,
+        <li role=\\"presentation\\">
+          <a data-menu=\\"item\\" href=\\"/c\\" id=\\"c\\" tabindex=\\"-1\\" data-active=\\"false\\" role=\\"menuitem\\">
+            C
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+"
+`;
+
+exports[`Menu trigger click 1`] = `
+"
+  <button data-menu=\\"trigger\\" aria-controls=\\"menu\\" aria-expanded=\\"true\\" aria-haspopup=\\"true\\" role=\\"button\\">
+    Profile
+  </button>
+  <div data-menu=\\"menu\\" id=\\"menu\\" aria-activedescendant=\\"a\\" aria-hidden=\\"false\\" style=\\"display: block; z-index: 100;\\" tabindex=\\"0\\">
+    <ul>
+      
+        <li role=\\"presentation\\">
+          <a data-menu=\\"item\\" href=\\"/a\\" id=\\"a\\" tabindex=\\"-1\\" data-active=\\"true\\" role=\\"menuitem\\">
+            A
+          </a>
+        </li>
+      ,
+        <li role=\\"presentation\\">
+          <a data-menu=\\"item\\" href=\\"/b\\" id=\\"b\\" tabindex=\\"-1\\" data-active=\\"false\\" role=\\"menuitem\\">
+            B
+          </a>
+        </li>
+      ,
+        <li role=\\"presentation\\">
+          <a data-menu=\\"item\\" href=\\"/c\\" id=\\"c\\" tabindex=\\"-1\\" data-active=\\"false\\" role=\\"menuitem\\">
+            C
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+"
+`;
+
+exports[`Menu trigger enter 1`] = `
+"
+  <button data-menu=\\"trigger\\" aria-controls=\\"menu\\" aria-expanded=\\"true\\" aria-haspopup=\\"true\\" role=\\"button\\">
+    Profile
+  </button>
+  <div data-menu=\\"menu\\" id=\\"menu\\" aria-activedescendant=\\"a\\" aria-hidden=\\"false\\" style=\\"display: block; z-index: 100;\\" tabindex=\\"0\\">
+    <ul>
+      
+        <li role=\\"presentation\\">
+          <a data-menu=\\"item\\" href=\\"/a\\" id=\\"a\\" tabindex=\\"-1\\" data-active=\\"true\\" role=\\"menuitem\\">
+            A
+          </a>
+        </li>
+      ,
+        <li role=\\"presentation\\">
+          <a data-menu=\\"item\\" href=\\"/b\\" id=\\"b\\" tabindex=\\"-1\\" data-active=\\"false\\" role=\\"menuitem\\">
+            B
+          </a>
+        </li>
+      ,
+        <li role=\\"presentation\\">
+          <a data-menu=\\"item\\" href=\\"/c\\" id=\\"c\\" tabindex=\\"-1\\" data-active=\\"false\\" role=\\"menuitem\\">
+            C
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+"
+`;

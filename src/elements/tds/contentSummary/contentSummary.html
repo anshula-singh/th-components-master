@@ -1,0 +1,39 @@
+<template>
+  <tds-summary
+    compact={compact}
+    description={summary.description}
+    display-mode={displayMode}
+    path={summary.path}
+    path-target={summary.pathTarget}
+    onnavigate={onNavigate}
+    title={summary.title}
+    pretitle={summary.pretitle}
+    pretitle-link-href={pretitleLink.href}
+    pretitle-link-target={pretitleLink.target}
+    pretitle-link-title={pretitleLink.title}
+  >
+    <tds-content-icon
+      background={hasBgColor}
+      color={summary.color}
+      slot="image"
+      size={imageSize}
+      src={summary.image}
+      checked={iconChecked}
+    ></tds-content-icon>
+
+    <span slot="meta-left">
+      <tds-badge>{points}</tds-badge>
+    </span>
+
+    <span slot="meta-right">
+      <tds-content-progress
+        lang={lang}
+        estimated-time-left={user.estimatedTimeLeft}
+        finished-at={user.finishedAt}
+        progress={user.percentageComplete}
+      >
+        {estimatedTime}
+      </tds-content-progress>
+    </span>
+  </tds-summary>
+</template>

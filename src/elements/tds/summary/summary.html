@@ -1,0 +1,56 @@
+<template>
+  <div class="summary" data-display={displayMode}>
+    <div class="header" if:true={showHeader}>
+      <div class="image">
+        <slot name="image"></slot>
+      </div>
+      <template if:true={isTile}>
+        <div>
+          <slot name="action"></slot>
+        </div>
+      </template>
+    </div>
+    <div class="body">
+      <div class="content">
+        <div class="content-start">
+          <div class="pretitle">
+            <slot name="pretitle">
+              {pretitle}
+              <a
+                if:true={pretitleLinkHref}
+                href={pretitleLinkHref}
+                target={pretitleLinkTarget}
+                >{pretitleLinkTitle}</a
+              >
+            </slot>
+          </div>
+          <a
+            class="title"
+            href={path}
+            onclick={onTitleClick}
+            role={titleRole}
+            tabindex={titleTabindex}
+            target={pathTarget}
+            >{title}</a
+          >
+          <template if:true={showDescription}>
+            <div class="description">{description}</div>
+          </template>
+        </div>
+        <template if:false={isTile}>
+          <div class="content-end">
+            <slot name="action"></slot>
+          </div>
+        </template>
+      </div>
+      <div class="footer" if:true={showFooter}>
+        <div>
+          <slot name="meta-left"></slot>
+        </div>
+        <div>
+          <slot name="meta-right"></slot>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

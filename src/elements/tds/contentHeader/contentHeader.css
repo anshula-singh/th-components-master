@@ -1,0 +1,12 @@
+@import "tds/reset";
+
+header {
+  background: white;
+  border-top: 80px solid;
+  border-top-color: var(--tds-color-fog);
+}
+
+.content-container {
+  padding: var(--tds-spacing-6);
+  margin-top: -80px;
+}

@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`createBundle chunks shared helpers 1`] = `
+"import { m as myHelper } from \\"trailheadui/shared_helper\\";
+
+myHelper();
+"
+`;
+
+exports[`createBundle injects Platform specific code 1`] = `
+"import { LightningElement, api } from \\"lwc\\";
+import { getIconPath } from \\"lightning/iconUtils\\";
+
+class virtual__entry extends LightningElement {
+  @api disabled = null;
+
+  get href() {
+    return getIconPath();
+  }
+}
+
+export default virtual__entry;
+"
+`;
+
+exports[`createBundle inlines helpers 1`] = `
+"import { LightningElement, api } from \\"lwc\\";
+
+function myHelper() {
+  alert(\\"Hello\\");
+}
+
+class virtual__entry extends LightningElement {
+  @api disabled = null;
+
+  connectedCallback() {
+    myHelper();
+  }
+}
+
+export default virtual__entry;
+"
+`;
+
+exports[`createBundle transforms TypeScript 1`] = `
+"import { LightningElement, api } from \\"lwc\\";
+
+class virtual__entry extends LightningElement {
+  @api disabled = null;
+
+  @api
+  get firstName() {
+    return \\"\\";
+  }
+
+  @api
+  get lastName() {
+    return \\"\\";
+  }
+}
+
+export default virtual__entry;
+"
+`;

@@ -1,0 +1,107 @@
+@import "tds/reset";
+@import "tm/cardBase";
+
+:host {
+  color: var(--tds-color-black);
+  margin: auto;
+  max-width: 960px;
+}
+
+a {
+  color: var(--tds-color-brand);
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-column-gap: var(--tds-spacing-6);
+  grid-row-gap: var(--tds-spacing-6);
+  justify-content: center;
+  margin: 0;
+  max-width: 1280px;
+  padding: 0;
+}
+
+.card {
+  display: flex;
+  padding: var(--tds-spacing-6);
+}
+
+.information {
+  margin-left: var(--tds-spacing-4);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.pretitle {
+  color: var(--tds-color-meteorite);
+  font-size: var(--tds-font-size-sm);
+  padding-bottom: var(--tds-spacing-1);
+}
+
+.calendar {
+  border-radius: var(--tds-spacing-2);
+  box-shadow: var(--tds-shadow-sm);
+  display: flex;
+  flex-direction: column;
+  min-width: 80px;
+  overflow: hidden;
+}
+
+.calendar__head {
+  background: #de4949;
+  border: 2px solid #c73434;
+  border-radius: var(--tds-radius-lg) var(--tds-radius-lg) 0 0;
+  color: white;
+  font-weight: bold;
+  padding: var(--tds-spacing-1);
+  text-align: center;
+  font-size: var(--tds-font-size-sm);
+  text-transform: uppercase;
+}
+
+.calendar__body {
+  align-items: center;
+  border-radius: 0 0 var(--tds-radius-lg) var(--tds-radius-lg);
+  display: flex;
+  font-family: Neutraface;
+  font-size: var(--tds-font-size-2xl);
+  font-weight: bold;
+  justify-content: center;
+  padding: var(--tds-spacing-3);
+}
+
+.title {
+  font-size: var(--tds-font-size-lg);
+  font-weight: bold;
+  padding-bottom: var(--tds-spacing-1);
+}
+
+.date {
+  font-weight: bold;
+}
+
+.date,
+.time,
+.location {
+  font-size: var(--tds-font-size-sm);
+  padding-top: var(--tds-spacing-1);
+}
+
+.cta {
+  font-size: var(--tds-font-size-md);
+  padding-top: var(--tds-spacing-4);
+  display: block;
+}
+
+@media screen and (max-width: 1200px) {
+  ul {
+    padding: 0 var(--tds-spacing-4);
+  }
+}

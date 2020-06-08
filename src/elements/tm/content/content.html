@@ -1,0 +1,15 @@
+<template>
+  <div class={rootClassName}>
+    <main lwc:dom="manual"></main>
+    <aside if:true={showHeadingsNav}>
+      <template iterator:heading={headings}>
+        <a
+          href={heading.value.href}
+          key={heading.value.id}
+          onclick={onHeadingClick}
+          >{heading.value.label}</a
+        >
+      </template>
+    </aside>
+  </div>
+</template>

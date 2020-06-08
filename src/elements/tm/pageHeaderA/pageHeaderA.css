@@ -1,0 +1,25 @@
+@import "tds/reset";
+
+.root {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: var(--tds-spacing-12) 0;
+}
+
+.pretitle {
+  color: var(--tds-colors-meteorite);
+}
+
+h1 {
+  font-size: var(--tds-font-size-4xl);
+  margin: 0;
+  padding: 0;
+}
+
+.actions {
+  align-items: center;
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: var(--tds-spacing-2);
+}

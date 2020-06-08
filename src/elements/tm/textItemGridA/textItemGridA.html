@@ -1,0 +1,15 @@
+<template>
+  <ul>
+    <template for:each={items} for:item="item">
+      <li key={item.title}>
+        <tm-text-item
+          icon-symbol={item.iconSymbol}
+          icon-sprite={item.iconSprite}
+          icon-variant={variant}
+          description={item.description}
+          title={item.title}
+        ></tm-text-item>
+      </li>
+    </template>
+  </ul>
+</template>

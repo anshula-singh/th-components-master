@@ -1,0 +1,26 @@
+<template>
+  <ul>
+    <template for:each={faqs} for:item="item">
+      <li class={item.className} key={item.id}>
+        <h3>
+          <button
+            aria-controls={item.id}
+            aria-expanded={item.expanded}
+            onclick={item.onClick}
+          >
+            <div>
+              <span class="icon-wrapper">
+                <tds-icon class="icon" symbol="switch"></tds-icon>
+              </span>
+              <span title={item.title}>{item.title}</span>
+            </div>
+          </button>
+        </h3>
+        <div class="description" id={item.id}>
+          {item.description}
+        </div>
+        <hr />
+      </li>
+    </template>
+  </ul>
+</template>

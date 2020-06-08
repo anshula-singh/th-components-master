@@ -1,0 +1,35 @@
+<template>
+  <a
+    class="item"
+    href={path}
+    onclick={onClick}
+    role={computedRole}
+    tabindex="0"
+  >
+    <div class="body">
+      <div class="title">
+        {title}
+      </div>
+      <div class="subtitle">
+        {subtitle}
+      </div>
+    </div>
+
+    <div class="action">
+      <template if:true={complete}>
+        <div class="icon icon--complete">
+          <tds-icon size="small" sprite="action" symbol="check"></tds-icon>
+        </div>
+      </template>
+      <template if:false={complete}>
+        <div class="icon">
+          <tds-icon
+            size="small"
+            sprite="utility"
+            symbol="chevronright"
+          ></tds-icon>
+        </div>
+      </template>
+    </div>
+  </a>
+</template>

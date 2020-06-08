@@ -1,0 +1,25 @@
+<template>
+  <div class="wrapper">
+    <div class="container">
+      <div class="link-wrapper">
+        <tds-icon
+          if:true={content.showIcon}
+          size="large"
+          symbol="salesforce1"
+          class="cloud"
+        ></tds-icon>
+        <div class="copyright">
+          {content.copyright}
+        </div>
+        <ul class="links">
+          <template for:each={content.links} for:item="link">
+            <li key={link.label}>
+              <a href={link.href} target={link.target}>{link.label}</a>
+            </li>
+          </template>
+        </ul>
+      </div>
+      <slot name="language-picker"></slot>
+    </div>
+  </div>
+</template>

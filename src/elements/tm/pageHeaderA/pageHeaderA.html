@@ -1,0 +1,19 @@
+<template>
+  <div class="root">
+    <div>
+      <span class="pretitle" if:true={pretitle}>{pretitle}</span>
+      <h1>{title}</h1>
+    </div>
+    <div class="actions">
+      <template for:each={items} for:item="item">
+        <tds-button-link
+          href={item.href}
+          key={item.title}
+          target={item.target}
+          variant={item.variant}
+          >{item.title}</tds-button-link
+        >
+      </template>
+    </div>
+  </div>
+</template>

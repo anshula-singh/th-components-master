@@ -1,0 +1,48 @@
+<template>
+  <ul>
+    <template for:each={jobs} for:item="item">
+      <li class={item.className} key={item.position}>
+        <div class="featured-title" if:true={item.featured}>
+          {item.featured}
+        </div>
+        <img alt="" src={item.imgSrc} />
+        <div class="content">
+          <div class="title">{item.position}</div>
+          <div class="subtitle">{item.company}</div>
+          <template if:true={item.location}>
+            <div class="item">
+              <tds-icon symbol="favorite"></tds-icon>
+              <span>{item.location}</span>
+            </div>
+          </template>
+          <template if:true={item.time}>
+            <div class="item">
+              <tds-icon symbol="checkin"></tds-icon>
+              <span>{item.time}</span>
+            </div>
+          </template>
+          <template if:true={item.type}>
+            <div class="item">
+              <tds-icon symbol="clock"></tds-icon>
+              <span>{item.type}</span>
+            </div>
+          </template>
+          <template if:true={item.salary}>
+            <div class="item">
+              <tds-icon symbol="money"></tds-icon>
+              <span>{item.salary}</span>
+            </div>
+          </template>
+        </div>
+        <tds-button-link
+          href={item.ctaHref}
+          target={item.ctaTarget}
+          if:true={item.ctaHref}
+          class="cta"
+        >
+          {item.ctaTitle}
+        </tds-button-link>
+      </li>
+    </template>
+  </ul>
+</template>

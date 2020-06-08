@@ -1,0 +1,131 @@
+@import "tds/reset";
+@import "tm/cardBase";
+
+:host {
+  height: 100%;
+}
+
+a {
+  color: var(--tds-color-brand);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  color: var(--tds-color-black);
+}
+
+.content-inner {
+  flex: 1;
+}
+
+.pretitle {
+  font-size: var(--tds-font-size-sm);
+  color: var(--tds-color-meteorite);
+  padding-bottom: var(--tds-spacing-1);
+}
+
+.title {
+  font-size: var(--tds-font-size-lg);
+  font-weight: bold;
+}
+
+.description {
+  margin-top: var(--tds-spacing-3);
+  line-height: var(--tds-line-height-normal);
+}
+
+.cta {
+  font-weight: bold;
+  margin-top: var(--tds-spacing-3);
+  display: block;
+}
+
+div.image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+img.image {
+  max-width: 100%;
+  max-height: 100px;
+}
+
+.card[data-href] .image {
+  cursor: pointer;
+}
+
+.card:not([data-image]),
+.card[data-image=""] {
+  padding: var(--tds-spacing-6);
+}
+
+.card[data-image^="top"] {
+  flex-direction: column-reverse;
+}
+
+.card[data-image^="top"] .content {
+  padding: var(--tds-spacing-6);
+}
+
+.card[data-image="top--cover"] .image {
+  height: 0;
+  border-top-left-radius: var(--tds-radius-lg);
+  border-top-right-radius: var(--tds-radius-lg);
+}
+
+.card[data-image="top--small"] .image {
+  align-self: flex-start;
+  margin: var(--tds-spacing-6) var(--tds-spacing-6) 0 var(--tds-spacing-6);
+  max-height: 75px;
+}
+
+.card[data-image="right--cover"] {
+  align-items: stretch;
+  padding: var(--tds-spacing-6);
+}
+
+.card[data-image="right--cover"] .image {
+  flex: 1;
+}
+
+.card[data-image="right--cover"] .image {
+  align-self: stretch;
+  border-radius: var(--tds-radius-lg);
+  margin-left: var(--tds-spacing-6);
+}
+
+.card[data-image="left--cover"] {
+  align-items: top;
+  flex-direction: row-reverse;
+  padding: var(--tds-spacing-6);
+}
+
+.card[data-image="left--cover"] .image {
+  align-self: stretch;
+  border-radius: var(--tds-radius-lg);
+  flex: 1;
+  margin-right: var(--tds-spacing-6);
+}
+
+.card[data-image="left--small"] {
+  align-items: flex-start;
+  flex-direction: row-reverse;
+  padding: var(--tds-spacing-6);
+}
+
+.card[data-image="left--small"] .image {
+  width: 50px;
+  margin-right: var(--tds-spacing-6);
+}

@@ -1,0 +1,68 @@
+<template>
+  <ui-focus-visible>
+    <div class="root">
+      <div class="profile" onclick={onProfileClick}>
+        <div class="user-info">
+          <button class="user-info__name" data-menu="trigger">
+            Shaun Russell
+          </button>
+          <div class="user-info__stats">32 badges, 12,312 points</div>
+        </div>
+        <div class="user-avatar">
+          <div class="progress-ring">
+            <div
+              class="progress-ring__progress"
+              role="progressbar"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              aria-valuenow="88"
+            >
+              <svg viewBox="-1 -1 2 2">
+                <path
+                  class="progress-ring__path"
+                  d="M 1 0 A 1 1 0 1 1 0.7289686274214112 -0.684547105928689 L 0 0"
+                ></path>
+              </svg>
+            </div>
+            <div class="progress-ring__content">
+              <img src="/images/avatar-shaun.png" alt="username's avatar" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu" data-menu="menu" id="menu">
+        <div class="menu__banner" style={bannerStyle}>
+          <div class="menu__banner-photo" style={bannerPhotoStyle}></div>
+        </div>
+        <div class="menu__header">
+          Astro
+        </div>
+        <ul class="menu__items">
+          <template for:each={menuOptions} for:item="option">
+            <li key={option.key}>
+              <a
+                class="menu__item"
+                data-menu="item"
+                href={option.link.href}
+                id={option.key}
+                target={option.link.target}
+              >
+                {option.label}
+              </a>
+            </li>
+          </template>
+        </ul>
+        <div class="menu__footer">
+          <a
+            class="menu__item"
+            data-menu="item"
+            id="logout"
+            href={user.userMenu.logout.link.href}
+          >
+            {user.userMenu.logout.label}
+          </a>
+        </div>
+      </div>
+    </div>
+  </ui-focus-visible>
+</template>

@@ -1,0 +1,56 @@
+@import "tds/reset";
+
+:host {
+  display: inline-flex;
+  color: var(--tds-color-meteorite);
+}
+
+.button {
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: var(--tds-spacing-1);
+  color: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: inherit;
+  line-height: inherit;
+  padding: var(--tds-spacing-2);
+  text-decoration: none;
+  user-select: none;
+  white-space: normal;
+}
+
+.button:hover:not(.button--disabled):not(.button--bare),
+.button:focus:not(.button--disabled):not(.button--bare) {
+  background-color: var(--tds-color-sand);
+  color: var(--tds-color-meteorite);
+}
+
+.button:active {
+  background-color: var(--tds-color-fog);
+  color: var(--tds-color-meteorite);
+}
+
+.button--disabled {
+  background: var(--tds-color-fog);
+  border-color: var(--tds-color-fog);
+  box-shadow: 0 1px 0 var(--tds-color-fog);
+  color: var(--tds-color-granite);
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.button--border-filled {
+  background-color: var(--tds-color-white);
+  border-color: var(--tds-color-fog);
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.button--bare:hover,
+.button--bare:focus {
+  background-color: var(--tds-color-sand);
+  border-color: var(--tds-color-fog);
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+}

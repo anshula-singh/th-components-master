@@ -1,0 +1,18 @@
+<template>
+  <div class="text-item" data-icon={iconVariant}>
+    <div class="content">
+      <div class="content-inner">
+        <h3 class="title">{title}</h3>
+        <p if:true={description} class="description">{description}</p>
+      </div>
+    </div>
+    <template if:true={hasIcon}>
+      <tds-icon
+        class="icon"
+        size="override"
+        sprite={iconSprite}
+        symbol={iconSymbol}
+      ></tds-icon>
+    </template>
+  </div>
+</template>

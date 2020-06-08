@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1138px" height="289px" viewBox="0 0 1138 289" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>content-tabs copy</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="content-tabs-copy">
+            <rect id="Rectangle" x="0" y="0" width="1138" height="289"></rect>
+            <rect id="Rectangle" fill="#0070D2" x="0" y="72" width="239" height="119" rx="12"></rect>
+            <rect id="Rectangle" fill="#0070D2" opacity="0.151622954" x="450" y="150" width="61" height="53" rx="12"></rect>
+            <rect id="Rectangle-Copy-11" fill="#0070D2" opacity="0.755278088" x="830" y="85" width="61" height="118" rx="12"></rect>
+            <rect id="Rectangle-Copy-6" fill="#0070D2" opacity="0.29985119" x="526" y="133" width="61" height="70" rx="12"></rect>
+            <rect id="Rectangle-Copy-12" fill="#0070D2" opacity="0.502255394" x="906" y="109" width="61" height="94" rx="12"></rect>
+            <rect id="Rectangle-Copy-7" fill="#0070D2" opacity="0.502255394" x="602" y="90" width="61" height="113" rx="12"></rect>
+            <rect id="Rectangle-Copy-13" fill="#0070D2" opacity="0.29985119" x="982" y="133" width="61" height="70" rx="12"></rect>
+            <rect id="Rectangle-Copy-9" fill="#0070D2" opacity="0.755278088" x="678" y="67" width="61" height="136" rx="12"></rect>
+            <rect id="Rectangle-Copy-14" fill="#0070D2" opacity="0.151622954" x="1058" y="144" width="61" height="59" rx="12"></rect>
+            <rect id="Rectangle-Copy-10" fill="#0070D2" x="754" y="16" width="61" height="187" rx="12"></rect>
+            <text id="Average-Annual-Salar" font-family="SalesforceSans-Bold, Salesforce Sans" font-size="18" font-weight="bold" fill="#FFFFFF">
+                <tspan x="23" y="110">Average Annual Salary</tspan>
+            </text>
+            <text id="$18,000-Min-10%" font-family="SalesforceSans-Bold, Salesforce Sans" font-size="18" font-weight="bold">
+                <tspan x="450" y="238" fill="#000000">$18,000</tspan>
+                <tspan x="450" y="261" font-family="SalesforceSans-Regular, Salesforce Sans" font-weight="normal" fill="#585858">Min 10%</tspan>
+            </text>
+            <text id="$62,000-Max-90%" font-family="SalesforceSans-Bold, Salesforce Sans" font-size="18" font-weight="bold">
+                <tspan x="1050.846" y="238" fill="#000000">$62,000</tspan>
+                <tspan x="1037.526" y="261" font-family="SalesforceSans-Regular, Salesforce Sans" font-weight="normal" fill="#585858">Max 90%</tspan>
+            </text>
+            <text id="$38,000-Median-50%" font-family="SalesforceSans-Bold, Salesforce Sans" font-size="18" font-weight="bold">
+                <tspan x="748.923" y="238" fill="#000000">$38,000</tspan>
+                <tspan x="728.475" y="261" font-family="SalesforceSans-Regular, Salesforce Sans" font-weight="normal" fill="#585858">Median 50%</tspan>
+            </text>
+            <text id="$38,000" font-family="NeutrafaceDisplay-Titling, Neutraface Display" font-size="44" font-weight="700" fill="#FFFFFF">
+                <tspan x="23" y="158">$38,000</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

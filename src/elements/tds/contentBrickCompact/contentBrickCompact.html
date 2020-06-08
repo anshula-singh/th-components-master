@@ -1,0 +1,14 @@
+<template>
+  <div class="brick" if:true={summary}>
+    <img class="image" if:true={summary.image} src={summary.image} />
+    <div class="content" data-testid="content">
+      <div class="pretitle" if:true={summary.pretitle}>
+        {summary.pretitle}
+      </div>
+      <a class="title" href={summary.path} target={summary.pathTarget}
+        >{summary.title}</a
+      >
+    </div>
+    <slot name="meta"></slot>
+  </div>
+</template>

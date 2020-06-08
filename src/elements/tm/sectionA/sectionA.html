@@ -1,0 +1,21 @@
+<template>
+  <section class={sectionClassName}>
+    <div class="content">
+      <div class="content-container">
+        <h2 if:true={title} class="title">{title}</h2>
+        <p if:true={description} class="description">{description}</p>
+      </div>
+      <div class="slot">
+        <slot></slot>
+      </div>
+      <tds-button-link
+        href={ctaHref}
+        target={ctaTarget}
+        if:true={ctaHref}
+        class="cta"
+      >
+        {ctaTitle}
+      </tds-button-link>
+    </div>
+  </section>
+</template>

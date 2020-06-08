@@ -1,0 +1,15 @@
+{
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "yarn test"
+      }
+    }
+  },
+  "env": {
+    "RESTRICT_CORS": "false",
+    "RESTRICT_IPS": "false",
+    "STORYBOOK": "true"
+  },
+  "stack": "heroku-18"
+}

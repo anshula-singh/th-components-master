@@ -1,0 +1,10 @@
+@import "tds/reset";
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recommendation {
+  margin-bottom: var(--tds-spacing-2);
+}

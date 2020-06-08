@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="819px" height="2129px" viewBox="0 0 819 2129" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 7</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="797" height="2107" rx="12"></rect>
+        <filter x="-2.4%" y="-0.7%" width="104.8%" height="101.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.077305507 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-7" transform="translate(11.000000, 6.000000)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <line x1="88" y1="126" x2="88" y2="1831" id="Line-4" stroke="#EAECF3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4,12"></line>
+            <circle id="Oval" stroke="#EAECF3" stroke-width="3" fill="#FFFFFF" cx="87" cy="87" r="39"></circle>
+            <circle id="Oval-Copy-3" stroke="#EAECF3" stroke-width="3" fill="#FFFFFF" cx="87" cy="390" r="39"></circle>
+            <circle id="Oval-Copy-4" stroke="#EAECF3" stroke-width="3" fill="#FFFFFF" cx="87" cy="731" r="39"></circle>
+            <circle id="Oval-Copy-6" stroke="#EAECF3" stroke-width="3" fill="#FFFFFF" cx="87" cy="974" r="39"></circle>
+            <circle id="Oval-Copy-7" stroke="#EAECF3" stroke-width="3" fill="#FFFFFF" cx="87" cy="1387" r="39"></circle>
+            <circle id="Oval-Copy-8" stroke="#EAECF3" stroke-width="3" fill="#FFFFFF" cx="87" cy="1824" r="39"></circle>
+            <text id="1" font-family="NeutrafaceDisplay-Titling, Neutraface Display" font-size="24" font-weight="700" fill="#2B4882">
+                <tspan x="83.096" y="96">1</tspan>
+            </text>
+            <text id="2" font-family="NeutrafaceDisplay-Titling, Neutraface Display" font-size="24" font-weight="700" fill="#2B4882">
+                <tspan x="81.052" y="397">2</tspan>
+            </text>
+            <text id="3" font-family="NeutrafaceDisplay-Titling, Neutraface Display" font-size="24" font-weight="700" fill="#2B4882">
+                <tspan x="80.74" y="738">3</tspan>
+            </text>
+            <text id="4" font-family="NeutrafaceDisplay-Titling, Neutraface Display" font-size="24" font-weight="700" fill="#2B4882">
+                <tspan x="80.02" y="981">4</tspan>
+            </text>
+            <text id="5" font-family="NeutrafaceDisplay-Titling, Neutraface Display" font-size="24" font-weight="700" fill="#2B4882">
+                <tspan x="80.884" y="1394">5</tspan>
+            </text>
+            <text id="6" font-family="NeutrafaceDisplay-Titling, Neutraface Display" font-size="24" font-weight="700" fill="#2B4882">
+                <tspan x="80.656" y="1831">6</tspan>
+            </text>
+            <text id="Basics-of-COVID-19" font-family="SalesforceSans-Bold, Salesforce Sans" font-size="18" font-weight="bold" fill="#1E1E1E">
+                <tspan x="151" y="94">Basics of COVID-19</tspan>
+            </text>
+            <text id="Basics-of-Contact-Tr" font-family="SalesforceSans-Bold, Salesforce Sans" font-size="18" font-weight="bold" fill="#1E1E1E">
+                <tspan x="151" y="394">Basics of Contact Tracing for COVID-19</tspan>
+            </text>
+            <text id="Steps-to-Investigate" font-family="SalesforceSans-Bold, Salesforce Sans" font-size="18" font-weight="bold" fill="#1E1E1E">
+                <tspan x="151" y="738">Steps to Investigate Cases and Trace Their Contacts</tspan>
+            </text>
+            <text id="Ethics-of-Contact-Tr" font-family="SalesforceSans-Bold, Salesforce Sans" font-size="18" font-weight="bold" fill="#1E1E1E">
+                <tspan x="151" y="981">Ethics of Contact Tracing and Technological Tools</tspan>
+            </text>
+            <text id="Skills-for-Effective" font-family="SalesforceSans-Bold, Salesforce Sans" font-size="18" font-weight="bold" fill="#1E1E1E">
+                <tspan x="151" y="1394">Skills for Effective Communication</tspan>
+            </text>
+            <text id="Learn-the-Salesforce" font-family="SalesforceSans-Bold, Salesforce Sans" font-size="18" font-weight="bold" fill="#1E1E1E">
+                <tspan x="151" y="1831">Learn the Salesforce Health Cloud</tspan>
+            </text>
+            <text id="To-begin,-we'll-dig" font-family="SalesforceSans-Regular, Salesforce Sans" font-size="16" font-weight="normal" line-spacing="24" fill="#000000">
+                <tspan x="151" y="125">To begin, we'll dig into the science of COVID-19, including what we know about </tspan>
+                <tspan x="151" y="149">its origins, clinical signs and symptoms, risk factors, diagnosis, transmission, and </tspan>
+                <tspan x="151" y="173">infectious period.</tspan>
+            </text>
+            <text id="Now-that-you've-lear" font-family="SalesforceSans-Regular, Salesforce Sans" font-size="16" font-weight="normal" line-spacing="24" fill="#000000">
+                <tspan x="151" y="425">Now that you've learned about the basics of COVID-19, we'll turn our attention </tspan>
+                <tspan x="151" y="449">to some of the tools being used to stop the spread: contact tracing, isolation, </tspan>
+                <tspan x="151" y="473">and quarantine. We'll also show you how what you've already learned about </tspan>
+                <tspan x="151" y="497">infection and transmission informs the use of these critical public health tools.</tspan>
+            </text>
+            <text id="In-this-module,-we'l" font-family="SalesforceSans-Regular, Salesforce Sans" font-size="16" font-weight="normal" line-spacing="24" fill="#000000">
+                <tspan x="151" y="769">In this module, we'll walk through the steps of the contact tracing process and </tspan>
+                <tspan x="151" y="793">provide examples. You'll also get to watch demonstrations of basic interactions </tspan>
+                <tspan x="151" y="817">with a case and and a contact.</tspan>
+            </text>
+            <text id="You'll-learn-about-t" font-family="SalesforceSans-Regular, Salesforce Sans" font-size="16" font-weight="normal" line-spacing="24" fill="#000000">
+                <tspan x="151" y="1012">You'll learn about the important ethical dimensions of contract tracing, </tspan>
+                <tspan x="151" y="1036">including how we balance the protection of the public's health with limits on </tspan>
+                <tspan x="151" y="1060">personal privacy and autonomy. We'll walk through some specific examples to </tspan>
+                <tspan x="151" y="1084">prepare you for some of the issues contact tracers encounter during the course </tspan>
+                <tspan x="151" y="1108">of their work.</tspan>
+            </text>
+            <text id="Effective-communicat" font-family="SalesforceSans-Regular, Salesforce Sans" font-size="16" font-weight="normal" line-spacing="24" fill="#000000">
+                <tspan x="151" y="1425">Effective communication is the cornerstone of a successful contact tracing </tspan>
+                <tspan x="151" y="1449">interaction. That includes building rapport with cases and contacts, active </tspan>
+                <tspan x="151" y="1473">listening, and asking the right kinds of questions. In this module, you'll watch </tspan>
+                <tspan x="151" y="1497">and read several example interactions that demonstrate both how and how not </tspan>
+                <tspan x="151" y="1521">to conduct yourself as a contact tracer.</tspan>
+            </text>
+            <text id="Get-to-know-the-pers" font-family="SalesforceSans-Regular, Salesforce Sans" font-size="16" font-weight="normal" line-spacing="24" fill="#000000">
+                <tspan x="151" y="1862">Get to know the person behind the patient with a panoramic view of each </tspan>
+                <tspan x="151" y="1886">customer, connected throughout your healthcare community. Together, we can </tspan>
+                <tspan x="151" y="1910">help you accelerate acquisition, enrollment, service, and innovation — so your </tspan>
+                <tspan x="151" y="1934">team can focus on what matters most: patients and members.</tspan>
+            </text>
+            <text id="By-the-end,-you-will" font-family="SalesforceSans-Italic, Salesforce Sans" font-size="14" font-style="italic" font-weight="normal" fill="#585858">
+                <tspan x="151" y="211">By the end, you will be able to:</tspan>
+            </text>
+            <text id="By-the-end,-you-will" font-family="SalesforceSans-Italic, Salesforce Sans" font-size="14" font-style="italic" font-weight="normal" fill="#585858">
+                <tspan x="151" y="535">By the end, you will be able to:</tspan>
+            </text>
+            <text id="By-the-end,-you-will" font-family="SalesforceSans-Italic, Salesforce Sans" font-size="14" font-style="italic" font-weight="normal" fill="#585858">
+                <tspan x="151" y="855">By the end, you will be able to:</tspan>
+            </text>
+            <text id="By-the-end,-you-will" font-family="SalesforceSans-Italic, Salesforce Sans" font-size="14" font-style="italic" font-weight="normal" fill="#585858">
+                <tspan x="151" y="1146">By the end, you will be able to:</tspan>
+            </text>
+            <text id="By-the-end,-you-will" font-family="SalesforceSans-Italic, Salesforce Sans" font-size="14" font-style="italic" font-weight="normal" fill="#585858">
+                <tspan x="151" y="1559">By the end, you will be able to:</tspan>
+            </text>
+            <text id="By-the-end,-you-will" font-family="SalesforceSans-Italic, Salesforce Sans" font-size="14" font-style="italic" font-weight="normal" fill="#585858">
+                <tspan x="151" y="1972">By the end, you will be able to:</tspan>
+            </text>
+            <text id="Natural-history-of-S" font-family="SalesforceSans-Regular, Salesforce Sans" font-size="14" font-weight="normal" line-spacing="24" fill="#585858">
+                <tspan x="177" y="235">Natural history of SARS-CoV-2</tspan>
+                <tspan x="177" y="259">Risk factors for severe disease</tspan>
+                <tspan x="177" y="283">Diagnosing COVID-19</tspan>
+                <tspan x="177" y="307">Transmission of SARS-CoV-2 </tspan>
+            </text>
+            <text id="Contact-Tracing-for" font-family="SalesforceSans-Regular, Salesforce Sans" font-size="14" font-weight="normal" line-spacing="24" fill="#585858">
+                <tspan x="177" y="560">Contact Tracing for COVID-19 Prevention </tspan>
+                <tspan x="177" y="584">Defining Case, Contact, Isolation and Quarantine </tspan>
+                <tspan x="177" y="608">Calculating Isolation and Quarantine Duration </tspan>
+                <tspan x="177" y="632">Identifying High-Risk Situations </tspan>
+                <tspan x="177" y="656">Provide Your Feedback on this Module</tspan>
+            </text>
+            <text id="The-Basic-Steps-Prov" font-family="SalesforceSans-Regular, Salesforce Sans" font-size="14" font-weight="normal" line-spacing="24" fill="#585858">
+                <tspan x="177" y="880">The Basic Steps</tspan>
+                <tspan x="177" y="904">Provide Your Feedback on this Module </tspan>
+            </text>
+            <text id="Contact-Tracing-as-a" font-family="SalesforceSans-Regular, Salesforce Sans" font-size="14" font-weight="normal" line-spacing="24" fill="#585858">
+                <tspan x="177" y="1171">Contact Tracing as a Common Public Health Tool</tspan>
+                <tspan x="177" y="1195">Defining Privacy, Confidentiality, and Other Terms about Ethics</tspan>
+                <tspan x="177" y="1219">Balancing Public Good with Privacy, Autonomy, and Confidentiality </tspan>
+                <tspan x="177" y="1243">Rationale for Using Technology for Contact Tracing</tspan>
+                <tspan x="177" y="1267">Examples of Technology Used for Each Step</tspan>
+                <tspan x="177" y="1291">Provide Your Feedback on this Module</tspan>
+            </text>
+            <text id="The-Importance-of-Ra" font-family="SalesforceSans-Regular, Salesforce Sans" font-size="14" font-weight="normal" line-spacing="24" fill="#585858">
+                <tspan x="177" y="1584">The Importance of Rapport</tspan>
+                <tspan x="177" y="1608">Tips for Effective Communication</tspan>
+                <tspan x="177" y="1632">Question Types and When to Use Them </tspan>
+                <tspan x="177" y="1656">Active Listening: Helping People Feel Heard </tspan>
+                <tspan x="177" y="1680">Bringing It All Together into One Communication Framework </tspan>
+                <tspan x="177" y="1704">Common Issues and Tips </tspan>
+                <tspan x="177" y="1728">Provide Your Feedback on this Module</tspan>
+            </text>
+            <text id="Describe-what-Health" font-family="SalesforceSans-Regular, Salesforce Sans" font-size="14" font-weight="normal" line-spacing="24" fill="#585858">
+                <tspan x="177" y="1997">Describe what Health Cloud helps a Care Coordinator do.</tspan>
+                <tspan x="177" y="2021">Describe the contents of a patient record in Health Cloud</tspan>
+                <tspan x="177" y="2045">List different types of relationships available in the household data model</tspan>
+            </text>
+            <text id="check-check-check-ch" font-family="SSJunior, SS Junior" font-size="14" font-weight="normal" line-spacing="24" fill="#585858">
+                <tspan x="151" y="235">check</tspan>
+                <tspan x="151" y="259">check</tspan>
+                <tspan x="151" y="283">check</tspan>
+                <tspan x="151" y="307">check</tspan>
+            </text>
+            <text id="check-check-check-ch" font-family="SSJunior, SS Junior" font-size="14" font-weight="normal" line-spacing="24" fill="#585858">
+                <tspan x="151" y="561">check</tspan>
+                <tspan x="151" y="585">check</tspan>
+                <tspan x="151" y="609">check</tspan>
+                <tspan x="151" y="633">check</tspan>
+                <tspan x="151" y="657">check</tspan>
+            </text>
+            <text id="check-check" font-family="SSJunior, SS Junior" font-size="14" font-weight="normal" line-spacing="24" fill="#585858">
+                <tspan x="151" y="881">check</tspan>
+                <tspan x="151" y="905">check</tspan>
+            </text>
+            <text id="check-check-check-ch" font-family="SSJunior, SS Junior" font-size="14" font-weight="normal" line-spacing="24" fill="#585858">
+                <tspan x="151" y="1172">check</tspan>
+                <tspan x="151" y="1196">check</tspan>
+                <tspan x="151" y="1220">check</tspan>
+                <tspan x="151" y="1244">check</tspan>
+                <tspan x="151" y="1268">check</tspan>
+                <tspan x="151" y="1292">check</tspan>
+            </text>
+            <text id="check-check-check-ch" font-family="SSJunior, SS Junior" font-size="14" font-weight="normal" line-spacing="24" fill="#585858">
+                <tspan x="151" y="1586">check</tspan>
+                <tspan x="151" y="1610">check</tspan>
+                <tspan x="151" y="1634">check</tspan>
+                <tspan x="151" y="1658">check</tspan>
+                <tspan x="151" y="1682">check</tspan>
+                <tspan x="151" y="1706">check</tspan>
+                <tspan x="151" y="1730">check</tspan>
+            </text>
+            <text id="check-check-check" font-family="SSJunior, SS Junior" font-size="14" font-weight="normal" line-spacing="24" fill="#585858">
+                <tspan x="151" y="1998">check</tspan>
+                <tspan x="151" y="2022">check</tspan>
+                <tspan x="151" y="2046">check</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

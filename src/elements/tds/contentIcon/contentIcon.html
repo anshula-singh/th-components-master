@@ -1,0 +1,15 @@
+<template>
+  <div class="image-container" style={imageContainerStyles}>
+    <img src={src} class="image" />
+    <template if:true={checked}>
+      <div class={iconClassName}>
+        <tds-icon
+          class="icon-svg"
+          size="override"
+          sprite="action"
+          symbol="check"
+        ></tds-icon>
+      </div>
+    </template>
+  </div>
+</template>

@@ -1,0 +1,29 @@
+<template>
+  <div class="card">
+    <div class="content">
+      <h3 class="title">{title}</h3>
+      <p class="description">{description}</p>
+    </div>
+    <ul>
+      <template for:each={skills} for:item="item">
+        <li key={item.title}>
+          <template if:true={item.href}>
+            <a href={item.href} class="progress-label">{item.title}</a>
+          </template>
+          <template if:false={item.href}>
+            <span class="progress-label">{item.title}</span>
+          </template>
+          <div
+            aria-valuemin="0"
+            aria-valuemax="100"
+            aria-valuenow={item.value}
+            class="progress-bar"
+            role="progressbar"
+          >
+            <div class={item.valueClassName} style={item.valueStyle}></div>
+          </div>
+        </li>
+      </template>
+    </ul>
+  </div>
+</template>

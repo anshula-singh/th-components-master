@@ -1,0 +1,44 @@
+<template>
+  <footer>
+    <div class="container">
+      <nav class="links">
+        <template for:each={columns} for:item="column">
+          <div class="links__column" key={column.heading}>
+            <div class="heading">{column.heading}</div>
+            <ul if:true={column.links}>
+              <template for:each={column.links} for:item="link">
+                <li key={link.label}>
+                  <a href={link.href} target={link.target}>{link.label}</a>
+                </li>
+              </template>
+            </ul>
+          </div>
+        </template>
+      </nav>
+
+      <div class="connect-wrapper">
+        <div class="connect">
+          <p class="connect-heading">{social.heading}</p>
+          <ul class="social-links">
+            <template for:each={socialLinks} for:item="link">
+              <li key={link.type}>
+                <a
+                  href={link.href}
+                  target={link.target}
+                  class={link.iconClassName}
+                >
+                  <tds-icon
+                    size="large"
+                    symbol={link.type}
+                    sprite="social-round"
+                  ></tds-icon>
+                  <span class="assistive-text">{link.label}</span>
+                </a>
+              </li>
+            </template>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</template>

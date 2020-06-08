@@ -1,0 +1,20 @@
+<template>
+  <template if:true={showComplete}>
+    <span class="text">{finishedAtLabel}</span>
+  </template>
+
+  <template if:true={showProgress}>
+    <span class="completion">
+      <span class="completion__text"
+        >{estimatedTimeLeftLabel} • {progress}%</span
+      >
+      <tds-progress-bar progress={progress}></tds-progress-bar>
+    </span>
+  </template>
+
+  <template if:true={showText}>
+    <span class="text">
+      <slot></slot>
+    </span>
+  </template>
+</template>

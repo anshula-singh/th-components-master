@@ -1,0 +1,11 @@
+.card-base {
+  background-color: var(--tds-color-white);
+  border-radius: var(--tds-radius-lg);
+  box-shadow: var(--tds-shadow-xs);
+  height: 100%;
+  transition: all 250ms ease-in-out;
+}
+
+.card-base:hover {
+  box-shadow: var(--tds-shadow-md);
+}

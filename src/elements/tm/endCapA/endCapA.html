@@ -1,0 +1,17 @@
+<template>
+  <div class={endCapClassName}>
+    <div class="content">
+      <img alt="" if:true={imgSrc} src={imgSrc} />
+      <h1>{title}</h1>
+      <p if:true={subtitle}>{subtitle}</p>
+      <tds-button-link
+        class="cta"
+        if:true={ctaHref}
+        href={ctaHref}
+        target={ctaTarget}
+        variant="neutral"
+        >{ctaLabel}</tds-button-link
+      >
+    </div>
+  </div>
+</template>

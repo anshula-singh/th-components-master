@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tds-content-header renders a content header: toMatchHTMLSnapshot 1`] = `
+"<header style=\\"border-top-color: hsl(210,50%,42%);\\">
+  <div class=\\"content-container\\">
+    <tds-content-summary></tds-content-summary>
+  </div>
+</header>
+"
+`;

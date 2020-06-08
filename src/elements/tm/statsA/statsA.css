@@ -1,0 +1,26 @@
+@import "tds/reset";
+
+ul {
+  --spacing: var(--tds-spacing-6);
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-column-gap: var(--spacing);
+  grid-row-gap: var(--spacing);
+  max-width: 1280px;
+}
+
+li {
+}
+
+h3 {
+  font-size: var(--tds-font-size-7xl);
+  margin-bottom: var(--tds-spacing-1);
+  margin-top: var(--tds-spacing-0);
+  font-family: "Neutraface";
+}
+
+p {
+  font-size: var(--tds-font-size-md);
+  margin: var(--tds-spacing-0);
+}

@@ -1,0 +1,14 @@
+@import "tds/reset";
+
+:host {
+  display: inline-flex;
+}
+
+.badge {
+  background-color: var(--tds-color-fog);
+  border-radius: var(--tds-radius-xl);
+  color: var(--tds-color-meteorite);
+  font-size: var(--tds-font-size-xs);
+  font-weight: bold;
+  padding: var(--tds-spacing-1) var(--tds-spacing-2);
+}

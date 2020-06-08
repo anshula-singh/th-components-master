@@ -1,0 +1,11 @@
+@import "tds/reset";
+
+ul {
+  --spacing: var(--tds-spacing-4);
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-column-gap: var(--spacing);
+  grid-row-gap: var(--spacing);
+  max-width: 1280px;
+}

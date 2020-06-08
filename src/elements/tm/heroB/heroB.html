@@ -1,0 +1,17 @@
+<template>
+  <div class={heroClassName} style={backgroundStyle}>
+    <div class="content">
+      <img alt="" if:true={imgSrc} src={imgSrc} />
+      <h1 class="title">{title}</h1>
+      <p class="subtitle" if:true={subtitle}>{subtitle}</p>
+      <tds-button-link
+        class="cta"
+        href={ctaHref}
+        target={ctaTarget}
+        if:true={ctaHref}
+        variant={buttonVariant}
+        >{ctaLabel}</tds-button-link
+      >
+    </div>
+  </div>
+</template>

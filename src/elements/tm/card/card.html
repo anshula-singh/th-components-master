@@ -1,0 +1,35 @@
+<template>
+  <div class="card card-base" data-image={imgVariantResponsive}>
+    <div class="content">
+      <div class="content-inner">
+        <p class="pretitle" if:true={pretitle}>
+          {pretitle}
+          <template if:true={pretitleHref}>
+            &nbsp;
+            <a href={pretitleHref}>{pretitleHrefText}</a>
+          </template>
+        </p>
+        <h3 class="title">{title}</h3>
+        <p if:true={description} class="description">{description}</p>
+      </div>
+      <a if:true={ctaTitle} class="cta" href={ctaHref} target={ctaTarget}
+        >{ctaTitle}</a
+      >
+    </div>
+    <template if:true={imgSrc}>
+      <div
+        class="image"
+        if:false={imgTag}
+        onclick={onImageClick}
+        style={imgStyle}
+      ></div>
+      <img
+        class="image"
+        if:true={imgTag}
+        onclick={onImageClick}
+        style={imgStyle}
+        src={imgSrc}
+      />
+    </template>
+  </div>
+</template>

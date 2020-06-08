@@ -1,0 +1,25 @@
+<template>
+  <h1 data-testid="trial"></h1>
+  <ul if:true={hasRecommendations}>
+    <template for:each={recommendations} for:item="rec">
+      <li key={rec.title} class="recommendation">
+        <tds-content-brick-compact
+          data-testid="rec-content-brick-compact"
+          summary={rec._summary}
+        >
+          <div slot="meta">
+            <th-favorite-button
+              csrf-token={csrfToken}
+              api-name={rec.apiName}
+              content-type={rec.contentType}
+              initial-favorited={rec.favorited}
+              labels={labels}
+              onfavorite={handleFavorite}
+            >
+            </th-favorite-button>
+          </div>
+        </tds-content-brick-compact>
+      </li>
+    </template>
+  </ul>
+</template>

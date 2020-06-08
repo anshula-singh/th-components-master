@@ -1,0 +1,73 @@
+@import "tds/reset";
+
+.card {
+  background-color: var(--tds-color-white);
+  border-radius: var(--tds-radius-lg);
+  box-shadow: var(--tds-shadow-sm);
+  padding: var(--tds-spacing-12);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: var(--tds-font-size-xl);
+  font-weight: normal;
+}
+
+.description {
+  line-height: 1.5;
+  margin-top: var(--tds-spacing-3);
+  margin-bottom: var(--tds-spacing-6);
+}
+
+ul {
+  display: grid;
+  grid-auto-flow: row;
+  grid-row-gap: var(--tds-spacing-6);
+}
+
+li .progress-label {
+  display: block;
+  color: var(--tds-color-meteorite);
+  margin-bottom: var(--tds-spacing-2);
+}
+
+li a {
+  text-decoration: underline;
+}
+
+.progress-bar {
+  background-color: var(--tds-color-sand);
+  border-radius: 100px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15) inset;
+  height: 20px;
+}
+
+.progress-value {
+  height: 100%;
+}
+
+.progress-value--cold {
+  border-radius: 100px;
+  background: linear-gradient(
+    90deg,
+    rgba(22, 99, 195, 1) 0%,
+    rgba(15, 194, 226, 1) 100%
+  );
+}
+
+.progress-value--warm {
+  border-radius: 100px;
+  background: linear-gradient(
+    90deg,
+    rgba(195, 46, 22, 1) 0%,
+    rgba(226, 140, 15, 1) 100%
+  );
+}
